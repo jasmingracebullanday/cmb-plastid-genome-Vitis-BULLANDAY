@@ -1,0 +1,122 @@
+# Characterization of a Plastid Genome  
+## Vitis vinifera (NC_007957.1)
+
+Student Name: JASMIN GRACE T. BULLANDAY  
+Date: October 1, 2026
+
+## 1. Basic Information
+
+Full scientific name: Vitis vinifera
+Family: Vitaceae
+NCBI accession/version: NC_007957.1
+Database source: NCBI RefSeq
+Complete plastid-genome size: 160,928 bp
+
+## 2. Evidence of Completeness
+
+The NCBI record is labeled “chloroplast, complete genome”.
+It is a circular molecule of 160,928 bp.
+It contains the typical quadripartite structure (LSC–IR–SSC–IR).
+It has a full set of plastid genes (photosystem, ATP synthase, rbcL, rRNA, tRNA, etc.).
+It is not a short barcode fragment (rbcL or matK only) or nuclear sequence.
+
+## 3. Genome Organization
+The Vitis vinifera plastid genome has the classic LSC–IRb–SSC–IRa arrangement.
+Region sizes:
+
+LSC = 89,147 bp
+SSC = 19,065 bp
+Each IR = 26,358 bp
+Total = 160,928 bp
+
+## 4. Gene Content
+Gene content summary:
+
+Total genes (including duplicates in IR): 131
+Unique genes: 113
+Protein-coding genes: 85
+tRNA genes: 37
+rRNA genes: 8
+Pseudogenes: none major reported
+
+Genes in the inverted-repeat (IR) regions appear in two copies because the two IR regions are identical inverted copies of each other.
+
+## 5. Selected Protein-Coding Genes
+Gene         Function
+psaA       Photosystem I reaction center protein
+psbA       Photosystem II reaction center protein (D1)
+atpA       ATP synthase alpha subunit
+petA       Cytochrome f (cytochrome b6f complex)
+rbcL       Large subunit of RuBisCO (carbon fixation)
+rpoB       RNA polymerase beta subunit
+rpl2       Ribosomal protein L2 (large subunit)
+matK       Maturase K (involved in RNA splicing)
+
+## 6. RNA and RNA-Processing Features
+Important RNA and RNA-processing features:
+
+rRNA genes: rrn16, rrn23, rrn4.5, rrn5 (all duplicated in the IR)
+tRNA gene examples: trnH-GUG, trnK-UUU, trnL-UAA, trnA-UGC
+Genes with introns: trnK-UUU (contains matK), rpl2, ndhB, clpP (two introns)
+
+## 7. Unusual Features
+Unusual features:
+
+No major gene losses, large rearrangements, or unusual pseudogenes are reported for the reference genome NC_007957.1. The gene order is highly conserved and identical to the typical tobacco-type plastid genome.
+
+## 8. GC Content and Other Observations
+GC content: 37.40 %
+Two other notable observations:
+
+The genome is a single circular molecule (confirmed by Galaxy statistics: only 1 sequence record).
+The inverted-repeat regions have higher GC content (~43 %) than the LSC and SSC regions.
+
+## 9. Plastid vs Mitochondrial Genomes
+Similarities between plastid and mitochondrial genomes (at least 5):
+
+1. Both are located in cytoplasmic organelles.
+2. Both are usually circular.
+3. Both contain their own DNA and some genes for their function.
+4. Both are typically inherited from the maternal parent in most plants.
+5. Both have multiple copies per cell.
+6. Both evolve at a slower rate than the nuclear genome (though rates differ).
+
+Differences (at least 5):
+
+1. Location: Plastid → chloroplast; Mitochondrion → mitochondrion.
+2. Main function: Plastid → photosynthesis; Mitochondrion → cellular respiration / ATP production.
+3. Genome size: Plastid (~120–160 kb) is usually larger and more stable than plant mitochondrial genomes (which vary greatly).
+4. Gene content: Plastids have many photosynthesis-related genes; mitochondria have fewer genes, mostly related to respiration.
+5. Structural stability: Plastid genomes are highly conserved in structure; plant mitochondrial genomes frequently rearrange.
+6. Mutation rate: Plastid genomes generally have lower substitution rates than plant mitochondrial genomes in many lineages.
+
+## 10. Practical Value and Limitations
+Advantages of plastid genomes compared with the nuclear genome:
+
+- Much smaller and easier to sequence completely
+- High copy number per cell (easier to amplify)
+- Conserved gene content and structure across plants
+- Maternal inheritance (useful for tracking maternal lineages)
+- recombination rate
+- Useful for phylogenetics and barcoding
+- No sex chromosomes (unlike nuclear genome)
+
+Limitations:
+
+- Limited number of genes (does not represent the whole organism)
+- Maternal inheritance only (cannot track paternal contribution)
+- Not useful for studying traits controlled by nuclear genes
+- Can have limited resolution for very recent divergences
+
+Research questions:
+
+- Plastid data useful for: “What is the phylogenetic relationship among different Vitis species or grape cultivars?”
+- Nuclear data more appropriate for: “Which genes control berry size or disease resistance in grapevine?”
+
+## Galaxy Evidence
+- History name: Plastid_Vitis_Bullanday
+- Screenshot: ../figures/Galaxy_statistics_Vitis.png
+
+## References
+- Jansen et al. (2006). BMC Evolutionary Biology
+- NCBI: https://www.ncbi.nlm.nih.gov/nuccore/NC_007957.1
